@@ -1,0 +1,94 @@
+On day five, I learnt how to verify directly connected networks and troubleshoot connectivity between devices. The lesson focused on checking interface configurations, verifying routing information, and using commands efficiently to monitor and manage network devices.
+
+Topics Covered and What I Learnt
+1. Interface Verification Commands
+
+I learnt various commands used to verify the status and configuration of router and switch interfaces. These commands helped me:
+
+View interface details
+Check IP addressing
+Monitor operational status
+Troubleshoot connectivity issues
+
+This improved my understanding of how to monitor network devices effectively.
+
+2. Verify Interface Status
+
+I learnt how to confirm whether interfaces were:
+
+Up or down
+Administratively shut down
+Properly connected to the network
+
+I understood the importance of checking interface status when diagnosing network communication problems.
+
+3. Verify IPv6 Link Local and Multicast Addresses
+
+I learnt about IPv6 link-local and multicast addresses and how they are used in communication within a local network segment. I understood that:
+
+Link-local addresses are automatically assigned
+Multicast addresses allow communication with multiple devices simultaneously
+These addresses are important in IPv6 operations and routing
+
+This helped me understand the basics of IPv6 network communication.
+
+4. Verify Interface Configuration
+
+I learnt how to verify whether interface configurations were correctly applied. This included checking:
+
+IP addresses
+Subnet masks
+IPv6 addressing
+Interface descriptions
+Operational settings
+
+This topic strengthened my troubleshooting and verification skills.
+
+5. Verify Routes
+
+I learnt how routers use routing tables to determine the best path for forwarding packets. I practised verifying routes using routing commands and understood:
+
+Directly connected routes
+Static routes
+Route status and path selection
+
+This helped me understand how routers make forwarding decisions.
+
+6. Filter Show Command Output
+
+I learnt how to filter command outputs to display only specific information. This made it easier to:
+
+Find important details quickly
+Reduce unnecessary information
+Improve troubleshooting efficiency
+
+I understood the importance of filtering outputs when working with large configurations.
+
+7. Syntax Checker – Filter Show Command Output
+
+I practised using filtering commands with a syntax checker. This improved my command accuracy and helped me understand the proper syntax used in filtering outputs.
+
+8. Command History Feature
+
+I learnt how to use the command history feature to:
+
+Recall previously entered commands
+Edit commands quickly
+Improve configuration speed and efficiency
+
+This feature made command-line operations easier and more productive.
+
+9. Syntax Checker – Command History Features
+
+I used a syntax checker to practise command history features and improve my understanding of command-line shortcuts and command recall techniques.
+
+10. Packet Tracer – Verify Directly Connected Networks
+
+Finally, I completed a Packet Tracer lab where I verified directly connected networks in a simulated environment. During the lab, I:
+
+Checked interface configurations
+Verified connectivity
+Analysed routing information
+Troubleshot network issues
+
+The practical exercise helped me apply the concepts learnt and strengthened my confidence in network verification and troubleshooting.
