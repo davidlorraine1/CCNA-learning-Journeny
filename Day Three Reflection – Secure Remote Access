@@ -1,0 +1,58 @@
+On day three, I learnt how to secure remote access to network devices using Telnet and SSH. The lesson focused on protecting network devices from unauthorized access and ensuring secure remote management of switches.
+
+Topics Covered and What I Learnt
+1. Telnet Operation
+
+I learnt how Telnet works as a remote access protocol that allows administrators to manage network devices over a network connection. I understood that:
+
+Telnet sends data in plain text
+Usernames and passwords are not encrypted
+It is less secure for modern networks
+
+This helped me understand why Telnet is mainly used in controlled or testing environments.
+
+2. SSH Operation
+
+I learnt about Secure Shell (SSH), which provides encrypted remote access to network devices. I understood that SSH:
+
+Encrypts usernames, passwords, and data
+Protects communication from attackers
+Provides secure remote management
+
+I learnt why SSH is preferred over Telnet in real-world networking environments.
+
+3. Verify the Switch Supports SSH
+
+I learnt how to check whether a switch supports SSH functionality. This involved verifying:
+
+IOS version compatibility
+Device capabilities
+Existing configurations required for SSH
+
+This step is important before configuring secure remote access.
+
+4. Configure SSH
+
+I practised configuring SSH on a switch. During the configuration process, I learnt how to:
+
+Set the hostname
+Configure the domain name
+Generate RSA encryption keys
+Create local usernames and passwords
+Enable SSH on VTY lines
+
+This gave me practical experience in securing network devices.
+
+5. Verify SSH is Operational
+
+I learnt how to test and verify whether SSH was working properly. I used commands to:
+
+Check SSH status
+Confirm successful remote login
+Verify encrypted remote connections
+
+This helped me understand how to confirm that a switch is securely accessible.
+
+6. Packet Tracer – Configure SSH
+
+Finally, I completed a Packet Tracer lab where I configured SSH on a switch in a simulated network environment. The practical exercise allowed me to apply all the concepts learnt during the lesson and strengthened my confidence in configuring secure remote access on network devices.
