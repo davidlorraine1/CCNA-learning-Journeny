@@ -1,0 +1,44 @@
+On day seven, I learnt about collision domains and broadcast domains in networking. The lesson focused on how network traffic behaves within a network and the methods used to reduce congestion and improve communication efficiency.
+
+Topics Covered and What I Learnt
+1. Collision Domains
+
+I learnt that a collision domain is a network segment where data collisions can occur when multiple devices attempt to send data at the same time. I understood that:
+
+Older network devices such as hubs create a single collision domain
+Switches reduce collisions by creating separate collision domains for each port
+Full-duplex communication helps eliminate collisions
+
+This topic helped me understand how switches improve network performance compared to hubs.
+
+2. Broadcast Domains
+
+I learnt that a broadcast domain is a group of devices that receive broadcast messages sent by one device within the network. I understood that:
+
+Routers separate broadcast domains
+Switches forward broadcast traffic within the same VLAN
+Large broadcast domains can increase unnecessary network traffic
+
+This helped me understand how broadcasts affect network efficiency and performance.
+
+3. Alleviate Network Congestion
+
+I learnt different methods used to reduce network congestion and improve communication efficiency. These methods included:
+
+Using switches instead of hubs
+Segmenting networks with VLANs
+Reducing unnecessary broadcast traffic
+Implementing proper network design
+Using routers to divide broadcast domains
+
+I understood that proper network segmentation improves speed, stability, and overall performance.
+
+4. Check Your Understanding – Switching Domains
+
+Finally, I completed an activity to test my understanding of switching domains. The exercise helped me:
+
+Differentiate between collision domains and broadcast domains
+Analyse how switches and routers manage traffic
+Understand how network devices reduce congestion
+
+This activity strengthened my understanding of network segmentation and efficient traffic management within modern networks.
