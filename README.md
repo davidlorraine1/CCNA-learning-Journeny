@@ -1,5 +1,5 @@
-Cybersecurity & Network Security Portfolio
-Professional Profile
+**Cybersecurity & Network Security Portfolio**
+_**Professional Profile**_
 
 Aspiring Cybersecurity and Network Security Professional with foundational and hands-on experience in:
 
