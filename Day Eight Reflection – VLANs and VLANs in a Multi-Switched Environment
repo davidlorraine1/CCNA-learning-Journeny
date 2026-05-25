@@ -1,0 +1,154 @@
+Day Eight Reflection – VLANs and VLANs in a Multi-Switched Environment
+
+On day eight, I learnt about Virtual Local Area Networks (VLANs) and how they are used to improve network organization, security, and performance. The lesson focused on VLAN concepts, VLAN communication across multiple switches, VLAN tagging, and how VLANs help manage traffic efficiently in modern networks.
+
+Topics Covered and What I Learnt
+1. VLAN Definitions
+
+I learnt that a VLAN (Virtual Local Area Network) is a logical grouping of devices within a network regardless of their physical location. I understood that VLANs:
+
+Divide one physical network into multiple logical networks
+Allow better organization of devices
+Improve network management and efficiency
+
+This helped me understand how organizations separate departments and users within the same physical network.
+
+2. Benefits of a VLAN Design
+
+I learnt several advantages of using VLANs in a network environment, including:
+
+Improved network security
+Reduced broadcast traffic
+Better network performance
+Easier network management
+Simplified troubleshooting
+Flexibility in network design
+
+I understood that VLANs help create more organized and scalable networks.
+
+3. Types of VLANs
+
+I learnt about different types of VLANs and their purposes in networking. These included:
+
+Default VLAN
+Data VLAN
+Management VLAN
+Native VLAN
+Voice VLAN
+
+This topic helped me understand how different VLANs are used for specific network functions.
+
+4. VLANs in a Multi-Switched Environment
+
+I learnt how VLANs operate across multiple switches within a network. I understood that:
+
+VLAN communication can extend between switches
+Switches use special connections called trunk links
+VLAN information must be preserved across the network
+
+This introduced me to how larger enterprise networks are designed.
+
+5. Defining VLAN Trunks
+
+I learnt that VLAN trunks are links between switches that carry traffic from multiple VLANs through a single connection. I understood that:
+
+Trunk links improve efficiency
+Multiple VLANs can share one physical link
+Trunking supports communication across large networks
+
+This helped me understand how VLAN traffic moves between switches.
+
+6. Network without VLANs
+
+I studied how traditional networks operate without VLANs and observed that:
+
+All devices share the same broadcast domain
+Broadcast traffic reaches every device
+Congestion increases as the network grows
+Security becomes harder to manage
+
+This showed me why VLANs are important in modern networking.
+
+7. Network with VLANs
+
+I learnt how VLANs improve network structure by:
+
+Separating devices into logical groups
+Reducing unnecessary traffic
+Improving performance
+Increasing security between groups
+
+I understood how VLAN segmentation creates more efficient networks.
+
+8. VLAN Identification with a Tag
+
+I learnt how switches identify VLAN traffic using VLAN tags added to Ethernet frames. I understood that:
+
+Tags identify the VLAN to which traffic belongs
+Tagged frames allow VLAN information to travel across trunk links
+Switches use tags to forward traffic correctly
+
+This helped me understand how VLAN communication is maintained between switches.
+
+9. Native VLANs and 802.1Q Tagging
+
+I learnt about the IEEE 802.1Q standard used for VLAN tagging. I understood that:
+
+VLAN traffic is usually tagged on trunk links
+Native VLAN traffic is untagged by default
+Proper native VLAN configuration improves security and communication
+
+This introduced me to industry-standard VLAN trunking methods.
+
+10. Voice VLAN Tagging
+
+I learnt how voice VLANs are used to support IP phones and voice communication in networks. I understood that:
+
+Voice traffic is separated from normal data traffic
+Voice VLANs improve call quality
+Special tagging helps prioritize voice packets
+
+This topic helped me understand how networks support modern communication systems.
+
+11. Voice VLAN Verification Example
+
+I studied examples showing how to verify voice VLAN configurations. I learnt how administrators check:
+
+VLAN assignments
+Port configurations
+Voice traffic settings
+Proper device communication
+
+This improved my understanding of VLAN verification and troubleshooting.
+
+12. Packet Tracer – Who Hears the Broadcast?
+
+I completed a Packet Tracer activity that demonstrated how broadcasts behave within VLANs. I observed that:
+
+Devices in the same VLAN receive broadcasts
+Devices in different VLANs do not receive broadcasts without routing
+VLANs reduce unnecessary traffic
+
+This practical activity helped me understand VLAN broadcast domains.
+
+13. Packet Tracer – Investigate a VLAN Implementation
+
+I also completed a Packet Tracer lab where I investigated VLAN implementation across multiple switches. During the exercise, I:
+
+Analysed VLAN communication
+Verified trunk links
+Observed VLAN tagging
+Tested connectivity between devices
+
+This strengthened my practical networking skills.
+
+14. Check Your Understanding – VLANs and Multi-Switch Environments
+
+Finally, I completed assessment activities to test my understanding of VLAN concepts and VLAN operations in multi-switch environments. The activities helped me:
+
+Differentiate VLAN types
+Understand trunking and tagging
+Analyse broadcast behavior
+Understand VLAN communication across networks
+
+These exercises strengthened my understanding of VLAN implementation and network segmentation in modern networking environments.
