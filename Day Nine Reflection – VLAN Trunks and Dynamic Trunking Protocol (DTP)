@@ -1,0 +1,139 @@
+On day nine, I learnt about VLAN trunks and the Dynamic Trunking Protocol (DTP). The lesson focused on how switches communicate VLAN information across networks, how trunk links are configured, and how switches automatically negotiate trunk connections.
+
+Topics Covered and What I Learnt
+3.4 VLAN Trunks
+1. Introduction to VLAN Trunks
+
+I learnt that VLAN trunks are special links between switches that carry traffic from multiple VLANs through a single physical connection. I understood that:
+
+Trunks allow VLAN communication across switches
+Multiple VLANs can travel through one link
+Trunking improves scalability and network efficiency
+
+This topic helped me understand how large switched networks maintain VLAN communication.
+
+2. Trunk Configuration Commands
+
+I learnt the commands used to configure trunk ports on switches. During the lesson, I practised:
+
+Setting ports as trunk ports
+Specifying encapsulation methods
+Assigning native VLANs
+Allowing specific VLANs on a trunk
+
+This improved my understanding of switch configuration and VLAN management.
+
+3. Trunk Configuration Example
+
+I studied practical examples showing how VLAN trunks are configured between switches. I observed:
+
+How switches exchange VLAN traffic
+How trunk links are established
+How devices in the same VLAN communicate across multiple switches
+
+This helped me connect theory with real network implementation.
+
+4. Verify Trunk Configuration
+
+I learnt how to verify whether trunk links were working properly using verification commands. I checked:
+
+Active trunk ports
+Allowed VLANs
+Native VLAN settings
+Trunk operational status
+
+This strengthened my troubleshooting and verification skills.
+
+5. Reset the Trunk to the Default State
+
+I learnt how to remove trunk configurations and restore switch ports to their default settings. I understood the importance of:
+
+Clearing incorrect configurations
+Returning ports to access mode
+Troubleshooting misconfigured trunks
+
+This helped me understand configuration management and recovery procedures.
+
+6. Packet Tracer – Configure Trunks
+
+I completed a Packet Tracer activity where I configured VLAN trunks between switches. During the lab, I:
+
+Configured trunk ports
+Allowed VLAN traffic across switches
+Verified trunk communication
+Tested VLAN connectivity
+
+The practical exercise improved my confidence in VLAN trunk configuration.
+
+7. Lab – Configure VLANs and Trunking
+
+Finally, I completed a lab involving both VLAN creation and trunk configuration. The lab helped me:
+
+Create and assign VLANs
+Configure trunk links
+Verify VLAN communication
+Troubleshoot connectivity issues
+
+This gave me hands-on experience in managing VLAN environments.
+
+3.5 Dynamic Trunking Protocol (DTP)
+8. Introduction to DTP
+
+I learnt about Dynamic Trunking Protocol (DTP), a Cisco protocol that allows switches to automatically negotiate trunk links. I understood that:
+
+DTP simplifies trunk configuration
+Switches can dynamically form trunk connections
+Proper configuration is important for security and stability
+
+This topic introduced me to automated trunk negotiation.
+
+9. Negotiated Interface Modes
+
+I learnt the different DTP interface modes used by switches, including:
+
+Dynamic desirable
+Dynamic auto
+Trunk mode
+Access mode
+
+I understood how these modes affect whether a trunk link is established between switches.
+
+10. Results of a DTP Configuration
+
+I studied how different DTP configurations interact with one another. I observed:
+
+Which interface mode combinations create trunks
+Which combinations remain as access ports
+How incorrect settings can prevent trunk formation
+
+This improved my understanding of switch-to-switch communication.
+
+11. Verify DTP Mode
+
+I learnt how to verify DTP configurations using switch commands. I practised checking:
+
+Current interface modes
+Trunk negotiation status
+Operational trunk settings
+
+This strengthened my ability to troubleshoot trunk negotiation issues.
+
+12. Packet Tracer – Configure DTP
+
+I completed a Packet Tracer activity where I configured and tested DTP between switches. During the exercise, I:
+
+Configured interface negotiation modes
+Observed automatic trunk formation
+Verified successful trunk communication
+
+This practical activity helped me understand how DTP operates in real network environments.
+
+13. Check Your Understanding – Dynamic Trunking Protocol
+
+Finally, I completed an assessment activity to test my understanding of DTP concepts. The exercise helped me:
+
+Differentiate DTP modes
+Understand trunk negotiation behavior
+Analyse switch communication and trunk formation
+
+This strengthened my knowledge of VLAN trunking and automated switch configuration in enterprise networks.
