@@ -1,0 +1,232 @@
+Day Ten Reflection – Inter-VLAN Routing
+
+On day ten, I learnt about Inter-VLAN Routing and how devices in different VLANs communicate with each other. The lesson focused on the operation of Inter-VLAN Routing, Router-on-a-Stick configuration, Layer 3 switching, and troubleshooting routing issues in VLAN environments.
+
+Topics Covered and What I Learnt
+4.1 Inter-VLAN Routing Operation
+1. What is Inter-VLAN Routing?
+
+I learnt that Inter-VLAN Routing is the process that allows devices in different VLANs to communicate with one another through a routing device. I understood that:
+
+VLANs separate broadcast domains
+Devices in different VLANs cannot communicate directly
+A router or Layer 3 switch is required for communication between VLANs
+
+This topic helped me understand how network segmentation works while still allowing controlled communication.
+
+2. Legacy Inter-VLAN Routing
+
+I learnt about the traditional method of Inter-VLAN Routing where:
+
+Each VLAN connects to a separate physical router interface
+Multiple physical connections are required
+The method is less scalable in modern networks
+
+This helped me understand the limitations of older routing designs.
+
+3. Router-on-a-Stick Inter-VLAN Routing
+
+I learnt about Router-on-a-Stick, where:
+
+A single router interface handles traffic from multiple VLANs
+Subinterfaces are created for each VLAN
+A trunk link connects the router to the switch
+
+I understood that this method is more efficient and widely used in small to medium-sized networks.
+
+4. Inter-VLAN Routing on a Layer 3 Switch
+
+I learnt that Layer 3 switches can perform both switching and routing functions. I understood that:
+
+Layer 3 switches route traffic between VLANs internally
+Routing becomes faster because it happens within the switch
+This method is commonly used in enterprise networks
+
+This introduced me to modern high-performance network design.
+
+5. Check Your Understanding – Inter-VLAN Routing Operation
+
+I completed an assessment activity that helped me:
+
+Differentiate routing methods
+Understand VLAN communication
+Analyse how routing devices forward traffic between VLANs
+
+This strengthened my understanding of Inter-VLAN communication.
+
+4.2 Router-on-a-Stick Inter-VLAN Routing
+6. Router-on-a-Stick Scenario
+
+I studied a network scenario where one router interface was used to route traffic for multiple VLANs through trunking. This helped me visualize how Router-on-a-Stick operates in real networks.
+
+7. S1 VLAN and Trunking Configuration
+
+I learnt how to configure VLANs and trunking on switch S1. During the configuration, I:
+
+Created VLANs
+Assigned ports to VLANs
+Configured trunk ports
+
+This helped me understand switch preparation for Inter-VLAN Routing.
+
+8. S2 VLAN and Trunking Configuration
+
+I also configured VLANs and trunking on switch S2 to allow VLAN traffic to travel between switches and the router.
+
+This strengthened my understanding of VLAN communication in multi-switch environments.
+
+9. R1 Subinterface Configuration
+
+I learnt how to configure router subinterfaces for each VLAN. During the configuration, I:
+
+Assigned VLAN IDs
+Configured IP addresses
+Enabled encapsulation using 802.1Q tagging
+
+This showed me how one physical router interface supports multiple VLANs.
+
+10. Verify Connectivity Between PC1 and PC2
+
+I practised verifying communication between devices in different VLANs. I used connectivity tests to confirm that routing between VLANs was successful.
+
+This helped me understand the importance of testing network configurations.
+
+11. Router-on-a-Stick Inter-VLAN Routing Verification
+
+I learnt how to verify Router-on-a-Stick configurations using router and switch commands. I checked:
+
+Trunk status
+VLAN assignments
+Subinterface configurations
+Routing functionality
+
+This improved my troubleshooting and verification skills.
+
+12. Packet Tracer – Configure Router-on-a-Stick Inter-VLAN Routing
+
+I completed a Packet Tracer activity where I configured Router-on-a-Stick Inter-VLAN Routing in a simulated network environment. During the exercise, I:
+
+Configured VLANs
+Set up trunk links
+Configured router subinterfaces
+Verified communication between VLANs
+
+This practical activity strengthened my hands-on networking skills.
+
+13. Lab – Configure Router-on-a-Stick Inter-VLAN Routing
+
+Finally, I completed a full lab exercise involving Router-on-a-Stick configuration and troubleshooting. The lab helped me apply all the concepts learnt during the lesson.
+
+4.3 Inter-VLAN Routing using Layer 3 Switches
+14. Layer 3 Switch Inter-VLAN Routing
+
+I learnt how Layer 3 switches perform Inter-VLAN Routing internally without needing an external router. I understood that this improves network performance and efficiency.
+
+15. Layer 3 Switch Scenario
+
+I studied a practical Layer 3 switching scenario and observed how routing occurs directly within the switch.
+
+This helped me understand enterprise-level network implementation.
+
+16. Layer 3 Switch Configuration
+
+I learnt how to configure a Layer 3 switch by:
+
+Enabling IP routing
+Creating VLAN interfaces
+Assigning IP addresses
+Configuring routing between VLANs
+
+This introduced me to advanced switching concepts.
+
+17. Layer 3 Switch Inter-VLAN Routing Verification
+
+I practised verifying Layer 3 switch routing configurations and tested communication between VLANs.
+
+This improved my ability to troubleshoot routed switch environments.
+
+18. Routing on a Layer 3 Switch
+
+I learnt how Layer 3 switches make routing decisions and forward packets between networks efficiently.
+
+This helped me understand the relationship between switching and routing.
+
+19. Routing Scenario on a Layer 3 Switch
+
+I analysed routing scenarios involving Layer 3 switches and observed how traffic moves between VLANs in enterprise networks.
+
+20. Routing Configuration on a Layer 3 Switch
+
+I practised configuring routing on a Layer 3 switch and verified successful communication between devices.
+
+21. Packet Tracer – Configure Layer 3 Switching and Inter-VLAN Routing
+
+I completed a Packet Tracer activity where I configured Layer 3 switching and Inter-VLAN Routing. During the lab, I:
+
+Configured VLAN interfaces
+Enabled routing
+Verified connectivity between VLANs
+
+This practical exercise strengthened my understanding of enterprise network routing.
+
+4.4 Troubleshoot Inter-VLAN Routing
+22. Common Inter-VLAN Issues
+
+I learnt about common problems that affect Inter-VLAN Routing, including:
+
+Incorrect VLAN assignments
+Trunk configuration errors
+Missing VLANs
+Router misconfigurations
+Access port issues
+
+This topic helped me understand common causes of network communication failure.
+
+23. Troubleshoot Inter-VLAN Routing Scenario
+
+I practised troubleshooting a routing scenario involving multiple VLANs and routing configurations.
+
+This improved my analytical and troubleshooting skills.
+
+24. Missing VLANs
+
+I learnt how missing VLAN configurations can prevent communication between devices and how to identify and correct such issues.
+
+25. Switch Trunk Port Issues
+
+I studied problems related to trunk ports, including:
+
+Incorrect trunk modes
+VLAN mismatch issues
+Native VLAN mismatches
+
+I understood how these problems affect VLAN communication.
+
+26. Switch Access Port Issues
+
+I learnt how incorrectly configured access ports can prevent devices from joining the correct VLAN.
+
+This helped me understand the importance of proper port assignments.
+
+27. Router Configuration Issues
+
+I learnt how router misconfigurations such as incorrect subinterface settings or missing encapsulation commands can disrupt Inter-VLAN communication.
+
+28. Check Your Understanding – Troubleshoot Inter-VLAN Routing
+
+I completed an assessment activity to test my troubleshooting knowledge and understanding of Inter-VLAN Routing problems.
+
+29. Packet Tracer – Troubleshoot Inter-VLAN Routing
+
+I completed a Packet Tracer troubleshooting activity where I identified and fixed routing and VLAN configuration issues in a simulated network.
+
+30. Lab – Troubleshoot Inter-VLAN Routing
+
+Finally, I completed a full troubleshooting lab involving Inter-VLAN Routing. During the lab, I:
+
+Diagnosed configuration problems
+Corrected VLAN and trunk issues
+Fixed routing configurations
+Verified successful communication between VLANs
+
+This practical experience greatly improved my confidence in configuring and troubleshooting routed VLAN environments.
